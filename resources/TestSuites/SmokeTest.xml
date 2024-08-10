@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Regression Suite" verbose="1">
+    <listeners>
+
+        <listener class-name="utils.RetryListener"></listener>
+    </listeners>
+    <test name="API Testcases">
+        <classes>
+            <class name="userManagement.getPostmanEcho"/>
+            <class name="userManagement.postUsers"/>
+        </classes>
+    </test>
+
+</suite>

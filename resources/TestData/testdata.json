@@ -1,0 +1,13 @@
+{
+  "username" : "postman",
+  "password" : "password",
+  "endpoint" : "users?page=2",
+  "languages" : ["Java", "Python", "C", "PHP"],
+  "technology": ["AI", "ML", "Analytics"],
+  "contact": [
+    "email: rravikumar4254@gmail.com",
+    "phone: 423432424",
+    "city: chennai",
+    "area : porur",
+    "state : Tamilnadu"]
+}
