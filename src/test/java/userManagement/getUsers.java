@@ -432,4 +432,9 @@ public class getUsers extends BaseTest {
         }
     }
 
+    @Test
+    public void testGitPush() {
+
+    }
+
 }
