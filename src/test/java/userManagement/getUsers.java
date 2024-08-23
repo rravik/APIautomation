@@ -422,7 +422,7 @@ public class getUsers extends BaseTest {
         System.out.println(t);
     }
 
-    @Test
+    @Test(description = "testforGetContactInfo")
     public void testforGetContactInfo() throws IOException, ParseException {
         JsonReader.getJsonArrayData("languages", 1);
         JSONArray jsonArray = getJsonArray("contact");
